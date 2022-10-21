@@ -1,0 +1,136 @@
+*{
+	color: white;
+	font-size: 20px;
+	font-family: 'Secular One';
+}
+body{
+	
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 1080px;
+}
+.power > b{
+    color: #ff4202!important;
+}
+.input-login > input{
+	font-size: 20pX;
+color: black;!important;
+ border-radius:5%;
+ 
+}
+
+.input-login > button{
+	  color: white;
+	  background-color: grey;
+}
+.contenedor{
+	  width: 100%;
+	  height: 1000px;
+}
+.video-1{
+	
+	  position: absolute;
+	  left: 0;
+      top: 0;
+      width: 100%;
+      height: auto;
+      z-index: -10;
+      visibility: visible;
+}
+/*
+Responsive
+*/
+.menu {
+  display: flex;
+ 
+}
+.menu a span:first-child {
+  display: inline-block;
+  padding: 45px;
+}
+.menu a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.menu a span:last-child {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-100%);
+}
+.menu a span {
+  transition: transform 0.2s ease-out;
+}
+ 
+.menu a:hover span:first-child {
+  transform: translateY(100%);
+}
+ 
+.menu a:hover span:last-child {
+  transform: none;
+}
+.menu[data-animation="to-top"] a span:last-child {
+  transform: translateY(100%);
+}
+ 
+.menu[data-animation="to-top"] a:hover span:first-child {
+  transform: translateY(-100%);
+}
+ 
+.menu[data-animation="to-right"] a span:last-child {
+  transform: translateX(-100%);
+}
+ 
+.menu[data-animation="to-right"] a:hover span:first-child {
+  transform: translateX(100%);
+}
+ 
+.menu[data-animation="to-left"] a span:last-child {
+  transform: translateX(100%);
+}
+ 
+.menu[data-animation="to-left"] a:hover span:first-child {
+  transform: translateX(-100%);
+}
+.responsive_pc{
+	padding: 17px;
+}
+.responsive_pc i{
+	box-sizing: border-box;
+	text-align: right;
+	margin-left: 5px;
+    color: white;
+}
+.responsive_pc a{
+	 color: white;
+	 text-decoration: none;
+}
+.responsive_mobil{
+	display: none;
+}
+.li_responsive_pc{
+	text-decoration: none;
+    display: inline-block;
+   
+}
+.nav_responsive{
+	background-color: ;
+}
+.li_responsive_pc :hover{
+          color: blue;
+          border:solid 3px green;
+     
+      }
+ @media only screen and (max-width: 600px ){
+
+ 	      .nav_responsive{
+ 	      	display: none;
+ 	      }
+ }

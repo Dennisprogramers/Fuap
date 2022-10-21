@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik+Dirt&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="other/css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="other/css/normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+	<title>El Paso de Panaloya</title>
+	<img class="fondo_principal" src="other/fondo.jpg">
+	<img class="fondo_principal_responsive" src="other/fondo_responsive.jpg">
+	<script src="https://kit.fontawesome.com/7a43d702a5.js" crossorigin="anonymous"></script>
+	<script>	
+		var imagenes=new Array(	
+			['img1.jpg'],
+	
+			['img2.jpg'],
+	
+			['img3.jpg'],
+	
+			['img4.jpg'],
+			
+			['img5.jpg'],
+
+			['img6.jpg'],
+		);	
+		var contador=0;
+		function rotarImagenes()
+	
+		{
+			contador++
+	
+			document.getElementById("imagen").src=imagenes[contador%imagenes.length][0];
+	
+			document.getElementById("link").href=imagenes[contador%imagenes.length][1];
+	
+		}
+	
+		onload=function()
+	
+		{
+			rotarImagenes();
+			setInterval(rotarImagenes,5000);
+	
+		}
+	
+	</script>
+</head>
+<body>
+	<nav>
+		<div class="menu">
+			<a href="../../index.html">
+		  <span><i class="fa-solid fa-house"></i></span>
+		 <span>
+			 Home
+	   </span>
+	  </a>
+	<a href="../sobre_nosotros/index.html">
+  <span><i class="fa-solid fa-people-group"></i></span>
+ <span>
+	   Sobre Nosotros
+</span>
+</a>
+<a href="../sobre_nosotros/">
+<span><i class="fa-solid fa-seedling"></i></span>
+<span>
+Donativos
+</span>
+</a>
+<a href="../../portafolio/index.html">
+<span><i class="fa-solid fa-plus"></i></span>
+<span>
+Mas Informacion
+</span>
+</a>
+</div>
+	</nav>
+	<br>
+	<br>
+	<br>
+	<br>
+<center>
+	   <div class="container">
+	   	   <div class ="caja1">
+	   	   <p class="parrafos_principales">  El Paso de Panaloya</p>
+	   	   <br>
+	   	   <br>
+	   	    <p class="parrafos_principales">"Es un lugar muy bello con personas trabajadoras y amables"</p>
+	   	</div>
+	   	   <div class="caja2">
+	   	   	  <p>Ubicación</p>
+	   	   	  <br>
+			  <br>
+			  <br>
+			  <br>
+	   	   	<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2450.8167532690336!2d-85.89266373714072!3d12.112894473356473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8f738b9e286b9c89%3A0xfa095a39e8bd2b60!2sEl%20Paso!3m2!1d12.1136362!2d-85.88919609999999!5e1!3m2!1ses!2sni!4v1660279620580!5m2!1ses!2sni" width="80%" height="600px" style="border:0; border-radius: 1%;  -webkit-box-shadow: 3px 3px 7px black;
+    -moz-box-shadow: 3px 3px 7px black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	   	   </div>
+		   <div class="caja2_responsive">
+			<iframe class="map_responsive" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2450.8167532690336!2d-85.89266373714072!3d12.112894473356473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8f738b9e286b9c89%3A0xfa095a39e8bd2b60!2sEl%20Paso!3m2!1d12.1136362!2d-85.88919609999999!5e1!3m2!1ses!2sni!4v1660279620580!5m2!1ses!2sni" width="100%" height="600px" style="border:0; border-radius: 1%;  -webkit-box-shadow: 3px 3px 7px black;
+			-moz-box-shadow: 3px 3px 7px black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		   </div>
+	   	   <div class="caja3">
+	   	   	<p>
+	   	   		  Datos
+	   	   	</p>
+	   	   	<br>
+	   	   	<br>
+	   	   	<div class="caja3-parrafo1">
+	   	   		  <p class="parrafos_3">
+	   	   		  		
+ 
+	 <br>
+	 <br>
+	 <br>
+	 A través del estratégico Puente “El Paso de Panaloya” se logra la
+	  conectividad entre los departamentos de Boaco, Managua, Chontales, 
+	 la Región Autónoma de la Costa Caribe Sur y la zona central del país,
+	  con Granada y otros departamentos del Pacífico de Nicaragua.
+	  <br>
+	  <br>
+	  <br>
+	  Paso Panaloya pertenece a Granada en Nicaragua
+Está clasificado como lugar poblado (Ciudad, pueblo, villa, barrio, etc..)
+Puede interesarte: El Tiempo en Nicaragua
+<br>
+<br>
+Información geográfica de Paso Panaloya
+<br>
+<br>
+Latitud: 12.1166667
+<br>
+Longitud: -85.8833333
+<br>
+UFI: -1113712
+<br>
+UNI: -1646109
+<br>
+UTM: FU23
+<br>
+JOG: ND16-16
+	   	   		  </p>
+	   	   	</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+	   	   </div>
+		   <div class="caja4">
+			<br>
+			<br>
+			<br>
+			<p class="caja4">
+				  La comunidad el paso panaloya es conocida y vicitada por las hermosas vistas que se pueden apreciar desde el puente "El paso"
+			</p>
+			<br>
+			<br>
+			<br>
+			<a href=""  id="link"><img class="caja5" src="https://www.technistone.com/color-range/image-slab/Crystal%20Absolute%20White_SLAB_web.jpg" id="imagen"></a>
+			</div>
+<footer class="caja6">
+	<br>
+	<br>
+	<br>
+	<br>
+       Recomendados 
+	   <br>
+	   <br>
+		<br>
+		<br>
+		<div class="container_caja6">
+		 <a class="caja" href="../../index.html">Pagina Principal</a></li>
+		 <br>
+		 <br>
+       <a href="../../portafolio/index.html">Datos y curisidades de la fauna</a></li>
+	   <br>
+	   <br>
+	   <br>
+	   </ul>
+	   </footer>
+
+</footer>
+<br>
+<br>
+<br>
+</center>
+</body>
+</html>

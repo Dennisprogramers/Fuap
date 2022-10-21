@@ -46,7 +46,18 @@ body{
    .parrafo_1:hover{
   color: black;
    }
+
  /******Contenedores****/
+ .contenedor_parrafos_ther_1_responsive{
+ 	display: none;
+ }
+ .contenedor_parrafos_ther_1_responsive{
+ 	display: none;
+ }
+ .contenedor_parrafos_ther_2_responsive{
+ 	 display: none;
+ }
+
 .contenedor_prymari{
 	color:  #fffdee;
 	height: 500px;
@@ -333,28 +344,32 @@ height: auto;
 font-size:16px ;
  }
 .contenedor_parrafos_ther_1{
-	font-size: 18px;
-	height: auto;
-	width: 100%;
+display: none;
 	}
 
 	.contenedor_parrafos_ther_2{
-font-size: 18px;
-width: 100%;
-height: auto;
+display: none;
 	}
 
-.contenedor_parrafos_ther_1 :hover{
-
-	font-size: 18px;
-	height: auto;
-	width: 100%;
-	}
+.contenedor_ther_12_responsive{
+	display: block;
 }
-.contenedor_parrafos_ther_2 : hover{
-	font-size: 18px;
-width: 100%;
-height: auto;
+.contenedor_parrafos_ther_1_responsive{
+
+	display: block;
+	width: 80%;
+	text-align: left;
+	height: auto;
+font-family: 'Nunito', sans-serif!important;
+}
+.contenedor_parrafos_ther_2_responsive{
+
+	display: block;
+	width: 80%;
+	text-align: left;
+	height: auto;
+font-family: 'Nunito', sans-serif!important;
+	display: block;
 }
  /******Contenedores****/
  .br_responsive{
